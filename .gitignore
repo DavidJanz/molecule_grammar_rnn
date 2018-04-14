@@ -1,0 +1,7 @@
+*.ipynb
+__pycache__/
+logfolder.conf
+*.pyc
+.ipynb_checkpoints/
+*.npz
+*~
