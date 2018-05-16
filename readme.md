@@ -5,6 +5,7 @@ Steps to reproduce results in table 4:
 
 1) Install requirements.
 rdkit (chemical informatics, http://www.rdkit.org/docs/Install.html) can be tricky; we recommend using Anaconda.
+Note: the project uses pytorch 0.3.1, later versions are not backward compatible and will not run.
 
 2) First prepare data by running
 python3 data data/zinc.smi
