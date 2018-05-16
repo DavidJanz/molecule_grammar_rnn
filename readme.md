@@ -7,7 +7,7 @@ Steps to reproduce results in table 4:
 rdkit (chemical informatics, http://www.rdkit.org/docs/Install.html) can be tricky; we recommend using Anaconda.
 
 2) First prepare data by running
-python3 data/preprocess_data.py data/zinc.smi
+python3 data data/zinc.smi
 
 3) Generate samples from pretrained VAE for testing the grammar model. See optional) for training your own VAE.
 python3 vae --restore vae-pretrained --generate-samples
