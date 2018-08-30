@@ -5,7 +5,7 @@ from torch.utils.data import Dataset
 
 def _get_seq_lens(x):
     if isinstance(x, list):
-        return [int((xs == 0).max(0)[1]) if 0 in xs else len(x) for xs in x]
+        return [int((xs == 0).max(0)[1]) if 0 in xs else len(xs) for xs in x]
     else:
         return (x == 0).max(1)[1]
 
